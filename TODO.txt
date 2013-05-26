@@ -10,4 +10,4 @@ Ce qu'il reste à faire :
 
 ***GALERIE PHOTOS
 
-    Intégration d'un hyperlien permettant d'accéder à PhotoShow pour visualiser les photos de tous les  évènements connus de l'asso --> Je m'en charge ce week-end (Antonin)
+    intégration de PhotoShow fait ! Reste plus qu'à bien le paramétrer pour faire visualiser le contenu par le public, sans qu'ils peuvent le modifier !

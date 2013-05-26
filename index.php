@@ -84,6 +84,7 @@
 		<div class="container clearfix">
 		  <div id="content" class="grid_12">
 		    <h1>Galerie Photos</h1>
+		      Veuillez cliquer <a style="color: blue;" href="PhotoShow/">ici</a> pour accéder à notre centre de photos en ligne !
 		  </div>
 		</div>
 	</div>
