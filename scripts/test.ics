@@ -1,0 +1,1371 @@
+BEGIN:VCALENDAR
+PRODID:-//Mozilla.org/NONSGML Mozilla Calendar V1.1//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+X-LIC-LOCATION:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20121205T140225Z
+LAST-MODIFIED:20121205T140244Z
+UID:fs1hh706cmthn636ksqooedkt8
+SUMMARY:Réunion FSDIE 
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+DTSTART;TZID=Europe/Paris:20121213T104000
+DTEND;TZID=Europe/Paris:20121213T113000
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/fs1hh706cmthn636ksqooedkt8/63490399364
+URL:https://www.google.com/calendar/event?eid=ZnMxaGg3MDZjbXRobjYzNmtzcW9v
+ ZWRrdDggYXJ0aHVyLmRld2FydW1lekBt
+DESCRIPTION:Commission dossier fsdie - Sécurité Day. Doit juste présent
+ er l'asso\, les responsables du projet explique leur projet
+TRANSP:OPAQUE
+LOCATION:A3 - Salle de réunion
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION:-PT10M
+SUMMARY:Résumé par défaut Mozilla
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20121130T155256Z
+LAST-MODIFIED:20121130T155320Z
+UID:7oembsslfclk44l644jjan0c48
+SUMMARY:Raspberry pi
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+DTSTART;VALUE=DATE;TZID=Europe/Paris:20121203
+DTEND;VALUE=DATE;TZID=Europe/Paris:20121204
+CLASS:DEFAULT
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/7oembsslfclk44l644jjan0c48/63489974000
+URL:https://www.google.com/calendar/event?eid=N29lbWJzc2xmY2xrNDRsNjQ0amph
+ bjBjNDggYXJ0aHVyLmRld2FydW1lekBt
+DESCRIPTION:Supprimer le raspberry pi de boris\nVirer le raspberry pi de t
+ ristan
+TRANSP:TRANSPARENT
+LOCATION:m5 local
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION:-PT10M
+SUMMARY:Résumé par défaut Mozilla
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20121123T224548Z
+LAST-MODIFIED:20121123T224548Z
+UID:9ar696edrtibuadapvnqfp615s
+SUMMARY:Lettre directeur res
+STATUS:TENTATIVE
+ORGANIZER;RSVP=FALSE;CN=arthur dewarumez;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDU
+ AL:mailto:arthur.dewarumez@gmail.com
+DTSTART;VALUE=DATE;TZID=Europe/Paris:20121125
+DTEND;VALUE=DATE;TZID=Europe/Paris:20121126
+CLASS:DEFAULT
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/9ar696edrtibuadapvnqfp615s/63489393948
+URL:https://www.google.com/calendar/event?eid=OWFyNjk2ZWRydGlidWFkYXB2bnFm
+ cDYxNXMgYXJ0aHVyLmRld2FydW1lekBt
+DESCRIPTION:Finir. Prendre doléance ch d327\nFusion lettre
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20121123T095904Z
+LAST-MODIFIED:20121123T100020Z
+UID:rc2tarr59pgnuam8v3tk77olkg
+SUMMARY:Rendez-vous Routier
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+DTSTART;TZID=Europe/Paris:20121128T140000
+DTEND;TZID=Europe/Paris:20121128T150000
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/rc2tarr59pgnuam8v3tk77olkg/63489348020
+URL:https://www.google.com/calendar/event?eid=cmMydGFycjU5cGdudWFtOHYzdGs3
+ N29sa2cgYXJ0aHVyLmRld2FydW1lekBt
+DESCRIPTION:Pour avoir des infos sur le nombres d'années max pour passer 
+ la licence. Demande ce qu'il en est avec les équivalences
+TRANSP:OPAQUE
+LOCATION:221 M3-extension
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION:-PT10M
+SUMMARY:Résumé par défaut Mozilla
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20121122T212326Z
+LAST-MODIFIED:20121122T212338Z
+UID:4k085qe7sj0or7e33nd278f3to
+SUMMARY:Soirée Flam's
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+DTSTART;TZID=Europe/Paris:20121213T210000
+DTEND;TZID=Europe/Paris:20121214T000000
+CLASS:PRIVATE
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/4k085qe7sj0or7e33nd278f3to/63489302618
+URL:https://www.google.com/calendar/event?eid=NGswODVxZTdzajBvcjdlMzNuZDI3
+ OGYzdG8gYXJ0aHVyLmRld2FydW1lekBt
+DESCRIPTION:Soirée flam's de l'aei
+TRANSP:OPAQUE
+LOCATION:Flam's lille
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION:-PT10M
+SUMMARY:Résumé par défaut Mozilla
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130114T104246Z
+LAST-MODIFIED:20130210T144502Z
+UID:aelg7segq8s7sh5n7la541tn68
+SUMMARY:Cours Proba/Stat
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130210T154459Z
+DTSTART;TZID=Europe/Paris:20130123T133000
+DTEND;TZID=Europe/Paris:20130123T150000
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/aelg7segq8s7sh5n7la541tn68/63496190702
+URL:https://www.google.com/calendar/event?eid=YWVsZzdzZWdxOHM3c2g1bjdsYTU0
+ MXRuNjggYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:P3 Maxwell
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130204T120835Z
+LAST-MODIFIED:20130210T144501Z
+UID:1f5ts3olce6fovulc932hb1b1o
+SUMMARY:Reunion subvention
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130210T154459Z
+DTSTART;TZID=Europe/Paris:20130205T130000
+DTEND;TZID=Europe/Paris:20130205T133000
+CLASS:PUBLIC
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/1f5ts3olce6fovulc932hb1b1o/63496190701
+URL:https://www.google.com/calendar/event?eid=MWY1dHMzb2xjZTZmb3Z1bGM5MzJo
+ YjFiMW8gYXJ0aHVyLmRld2FydW1lekBt
+DESCRIPTION:Réunion pour savoir pourquoi les subvention n'ont pas été c
+ omplètement versé. \nPréparer :\n- des demandes de subvention déposée
+ s\n- des réponses reçues\n- des versements effectués
+TRANSP:OPAQUE
+LOCATION:M3 Extension\, 221
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT20M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION:-PT20M
+SUMMARY:Résumé par défaut Mozilla
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130109T134319Z
+LAST-MODIFIED:20130210T144501Z
+UID:9qj3lgrosrff908rbtqpio99fs
+SUMMARY:Cours ASD
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130210T154459Z
+DTSTART;TZID=Europe/Paris:20130114T153000
+DTEND;TZID=Europe/Paris:20130114T170000
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/9qj3lgrosrff908rbtqpio99fs/63496190701
+URL:https://www.google.com/calendar/event?eid=OXFqM2xncm9zcmZmOTA4cmJ0cXBp
+ bzk5ZnMgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:M5 Bacchus
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130109T134125Z
+LAST-MODIFIED:20130210T144500Z
+UID:61tvcl1kh19s3hjfas89pibf78
+SUMMARY:Cours Proba/Stat
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130210T154459Z
+DTSTART;TZID=Europe/Paris:20130116T133000
+DTEND;TZID=Europe/Paris:20130116T150000
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/61tvcl1kh19s3hjfas89pibf78/63496190700
+URL:https://www.google.com/calendar/event?eid=NjF0dmNsMWtoMTlzM2hqZmFzODlw
+ aWJmNzggYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:P3 Maxwell
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130109T134020Z
+LAST-MODIFIED:20130210T144500Z
+UID:jjn90r12qcot2i49u26u76jis4
+SUMMARY:Cours AEL
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130210T154459Z
+DTSTART;TZID=Europe/Paris:20130115T101500
+DTEND;TZID=Europe/Paris:20130115T114500
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/jjn90r12qcot2i49u26u76jis4/63496190700
+URL:https://www.google.com/calendar/event?eid=ampuOTByMTJxY290Mmk0OXUyNnU3
+ NmppczQgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:M5 Bacchus
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130109T133657Z
+LAST-MODIFIED:20130210T144500Z
+UID:noijt8o792svf3ig7le9367l1s
+SUMMARY:Cours Proba/Stat
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130210T154459Z
+DTSTART;TZID=Europe/Paris:20130114T133000
+DTEND;TZID=Europe/Paris:20130114T150000
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/noijt8o792svf3ig7le9367l1s/63496190700
+URL:https://www.google.com/calendar/event?eid=bm9panQ4bzc5MnN2ZjNpZzdsZTkz
+ NjdsMXMgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:P3 Maxwell
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130109T133405Z
+LAST-MODIFIED:20130210T144458Z
+UID:b3hj7psmagt9viegd0gqhp1008
+SUMMARY:Reunion rentré
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130210T154457Z
+DTSTART;TZID=Europe/Paris:20130114T100000
+DTEND;TZID=Europe/Paris:20130114T113000
+CLASS:PRIVATE
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/b3hj7psmagt9viegd0gqhp1008/63496190698
+URL:https://www.google.com/calendar/event?eid=YjNoajdwc21hZ3Q5dmllZ2QwZ3Fo
+ cDEwMDggYXJ0aHVyLmRld2FydW1lekBt
+DESCRIPTION:Réunion de rentré
+TRANSP:OPAQUE
+LOCATION:M5 Bacchus
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION:-PT10M
+SUMMARY:Résumé par défaut Mozilla
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130212T162535Z
+LAST-MODIFIED:20130212T162536Z
+DTSTAMP:20130212T150358Z
+UID:46b010fd-122e-40d9-b2cf-8921af21a3b2
+SUMMARY:Proba/Stat - TD
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+CATEGORIES:Fac
+DTSTART;TZID=Europe/Paris:20130212T151500
+DTEND;TZID=Europe/Paris:20130212T164500
+CLASS:DEFAULT
+SEQUENCE:2
+LOCATION:M5 - A1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/_6gr64c1h61j68b9h68p6ab9k61i3ibb269hmcb9o74p32ob668
+ om2cr268/63496369536
+URL:https://www.google.com/calendar/event?eid=XzZncjY0YzFoNjFqNjhiOWg2OHA2
+ YWI5azYxaTNpYmIyNjlobWNiOW83NHAzMm9iNjY4b20yY3IyNjggYXJ0aHVyLmRld2FydW1lek
+ Bt
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130212T162535Z
+LAST-MODIFIED:20130212T162535Z
+DTSTAMP:20130212T150706Z
+UID:9918576d-df4b-445c-9c4d-0940aa58098e
+SUMMARY:Proba/Stat - TD/TP
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+CATEGORIES:Fac
+DTSTART;TZID=Europe/Paris:20130211T101500
+DTEND;TZID=Europe/Paris:20130211T114500
+CLASS:DEFAULT
+SEQUENCE:2
+LOCATION:M5 - A6
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/_74sj2e1l6sr68bb4coq64b9k6gqm6b9pccq68b9g74q30ob16k
+ s30e9ock/63496369535
+URL:https://www.google.com/calendar/event?eid=Xzc0c2oyZTFsNnNyNjhiYjRjb3E2
+ NGI5azZncW02YjlwY2NxNjhiOWc3NHEzMG9iMTZrczMwZTlvY2sgYXJ0aHVyLmRld2FydW1lek
+ Bt
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130212T162535Z
+LAST-MODIFIED:20130212T162535Z
+DTSTAMP:20130212T145224Z
+UID:fc6e842b-079e-4f8b-876a-f983e7f51648
+SUMMARY:AeL -TP
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+CATEGORIES:Fac
+DTSTART;TZID=Europe/Paris:20130211T080000
+DTEND;TZID=Europe/Paris:20130211T100000
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/_cphjcp9o6gp64b9g6ssmab9kcos64b9o6sr62bb674s36p9nco
+ qj2dhk70/63496369535
+URL:https://www.google.com/calendar/event?eid=X2NwaGpjcDlvNmdwNjRiOWc2c3Nt
+ YWI5a2NvczY0YjlvNnNyNjJiYjY3NHMzNnA5bmNvcWoyZGhrNzAgYXJ0aHVyLmRld2FydW1lek
+ Bt
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130114T165147Z
+LAST-MODIFIED:20130213T121112Z
+DTSTAMP:20130213T131110Z
+UID:j3uck7oc0h5iviff6repn4m738
+SUMMARY:TD ASD
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130210T154459Z
+DTSTART;TZID=Europe/Paris:20130118T083000
+DTEND;TZID=Europe/Paris:20130118T100000
+CLASS:DEFAULT
+SEQUENCE:2
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/j3uck7oc0h5iviff6repn4m738/63496440672
+URL:https://www.google.com/calendar/event?eid=ajN1Y2s3b2MwaDVpdmlmZjZyZXBu
+ NG03MzggYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:M5 -A5
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION:-PT10M
+SUMMARY:Résumé par défaut Mozilla
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130114T104338Z
+LAST-MODIFIED:20130213T121101Z
+DTSTAMP:20130213T131059Z
+UID:omjefiad3sf0nu7115bvn0jqqs
+SUMMARY:TD AeL
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130210T154459Z
+DTSTART;TZID=Europe/Paris:20130117T083000
+DTEND;TZID=Europe/Paris:20130117T100000
+CLASS:DEFAULT
+SEQUENCE:2
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/omjefiad3sf0nu7115bvn0jqqs/63496440661
+URL:https://www.google.com/calendar/event?eid=b21qZWZpYWQzc2YwbnU3MTE1YnZu
+ MGpxcXMgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:M5 A4
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130221T154200Z
+LAST-MODIFIED:20130221T154234Z
+UID:02tcn0ac6gt4jjghd78n436cps
+SUMMARY:Test
+STATUS:TENTATIVE
+ORGANIZER;RSVP=FALSE;CN=arthur dewarumez;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDU
+ AL:mailto:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130221T164234Z
+DTSTART;TZID=Europe/Paris:20130221T010000
+DTEND;TZID=Europe/Paris:20130221T020000
+CLASS:DEFAULT
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/02tcn0ac6gt4jjghd78n436cps/63497144554
+URL:https://www.google.com/calendar/event?eid=MDJ0Y24wYWM2Z3Q0ampnaGQ3OG40
+ MzZjcHMgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:Test
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130224T203827Z
+LAST-MODIFIED:20130224T203828Z
+DTSTAMP:20130224T194846Z
+UID:8b598d7a-e53d-4c67-932e-a8a675df130f
+SUMMARY:Conférence Master
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+CATEGORIES:Fac
+DTSTART;TZID=Europe/Paris:20130226T101500
+DTEND;TZID=Europe/Paris:20130226T114500
+CLASS:DEFAULT
+LOCATION:M5 - Bacchus
+DESCRIPTION:Conférence de présentation des Master
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/_71h3ae9ocgrm2bb56kpm8b9kccr3eb9p6cp6abb171gjcdplch
+ j32cpgco/63497421508
+URL:https://www.google.com/calendar/event?eid=XzcxaDNhZTlvY2dybTJiYjU2a3Bt
+ OGI5a2NjcjNlYjlwNmNwNmFiYjE3MWdqY2RwbGNoajMyY3BnY28gYXJ0aHVyLmRld2FydW1lek
+ Bt
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130224T203827Z
+LAST-MODIFIED:20130224T203828Z
+DTSTAMP:20130224T195516Z
+UID:f2b1d98d-6dcb-42c3-a8af-e6c5c368ef25
+SUMMARY:Proba/Stat - DS1
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+CATEGORIES:Fac
+DTSTART;TZID=Europe/Paris:20130227T161500
+DTEND;TZID=Europe/Paris:20130227T180000
+CLASS:DEFAULT
+LOCATION:Bat M1
+DESCRIPTION:DS 1 proba.\n\ndroit à une feuille recto-verso A4 manuscrite 
+ (le formulaire ne sera pas utile pour cet examen).
+SEQUENCE:3
+TRANSP:OPAQUE
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/_cop64cb474s68b9mchhm4b9k69hj6bb171gmcbb56phjaopj6o
+ s6aphi6k/63497421508
+URL:https://www.google.com/calendar/event?eid=X2NvcDY0Y2I0NzRzNjhiOW1jaGht
+ NGI5azY5aGo2YmIxNzFnbWNiYjU2cGhqYW9wajZvczZhcGhpNmsgYXJ0aHVyLmRld2FydW1lek
+ Bt
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130224T203827Z
+LAST-MODIFIED:20130226T163514Z
+DTSTAMP:20130224T195007Z
+UID:e3174692-cf89-447c-bc31-0d17502b757b
+SUMMARY:Resto copain
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+CATEGORIES:Personnel
+DTSTART;TZID=Europe/Paris:20130228T193000
+DTEND;TZID=Europe/Paris:20130301T000000
+CLASS:DEFAULT
+SEQUENCE:4
+LOCATION:Instant gourmant
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/_ckpj2dpk6osj4bb3cos3ib9k6grm6bb2ccpj2b9gcgojed9g69
+ h3ed9nc8/63497579714
+URL:https://www.google.com/calendar/event?eid=X2NrcGoyZHBrNm9zajRiYjNjb3Mz
+ aWI5azZncm02YmIyY2NwajJiOWdjZ29qZWQ5ZzY5aDNlZDluYzggYXJ0aHVyLmRld2FydW1lek
+ Bt
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130228T122412Z
+LAST-MODIFIED:20130228T122412Z
+UID:mf1poo8gdl6psdng4e2hkve9a8
+SUMMARY:AeL - TD
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+CATEGORIES:Fac
+DTSTART;TZID=Europe/Paris:20130304T083000
+DTEND;TZID=Europe/Paris:20130304T100000
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/mf1poo8gdl6psdng4e2hkve9a8/63497737452
+URL:https://www.google.com/calendar/event?eid=bWYxcG9vOGdkbDZwc2RuZzRlMmhr
+ dmU5YTggYXJ0aHVyLmRld2FydW1lekBt
+DESCRIPTION:Re-Bonjour\, \n\n\nLe td de la semaine prochaine sera le Lundi
+  4 Mars de 8h30 à 10h dans la salle A4 au M5 :). \n(pas de Td le jeudi do
+ nc.) \nOn corrigera les exos qui reste de la feuille 5 et on fait une peti
+ te révision si il reste du temps.... \n\n\nVeillez s'il vous plaît passe
+ r l'information à vos collègues qui ne sont pas en copie. \n\nBon courag
+ e et bonne journée. \n\n\nCordialement\, \nYosra. \n\n\n-- \nYosra REKIK 
+ \nPhD Student \nINRIA Lille - Nord Europe (MINT Project) \nUniversity of L
+ ille\, LIFL\, IRCICA/CNRS
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130302T191119Z
+LAST-MODIFIED:20130307T183019Z
+DTSTAMP:20130307T130059Z
+UID:9854a959-298b-4e3a-bbc4-0868ad3951ec
+SUMMARY:auditions Licence Pro
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+CATEGORIES:Fac
+X-MOZ-LASTACK:20130307T130059Z
+DTSTART;TZID=Europe/Paris:20130308T133000
+DTEND;TZID=Europe/Paris:20130308T143000
+CLASS:DEFAULT
+DESCRIPTION:Bonjour\,\n\nVous avez manifesté votre désire de candidater 
+ en Licence Pro pour la rentrée prochaine.\n\nVous serez auditionnés le v
+ endredi 8 mars prochain entre 13h30 et 14h30 en salle Delattre au M3\, par
+ \nBruno Beaufils et Yvan Peter responsables de deux licences Pro\, ainsi q
+ ue Marie-Émilie Voge et moi-même.\n\n\nÀ vendredi prochain\,\n\nÉric W
+ egrzynowski
+LOCATION:M3 - Delattre
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/_74s3ad3174qjib9i74s64b9kckpm2bb2c9hj8b9g70r3gob46c
+ sjacb5cc/63498364219
+URL:https://www.google.com/calendar/event?eid=Xzc0czNhZDMxNzRxamliOWk3NHM2
+ NGI5a2NrcG0yYmIyYzloajhiOWc3MHIzZ29iNDZjc2phY2I1Y2MgYXJ0aHVyLmRld2FydW1lek
+ Bt
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-P1D
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130313T162848Z
+LAST-MODIFIED:20130313T162906Z
+DTSTAMP:20130313T172902Z
+UID:42rr56t64r6fsqi9jlfcv8shtg
+SUMMARY:AeL - TD
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+CATEGORIES:Fac
+DTSTART;TZID=Europe/Paris:20130314T083000
+DTEND;TZID=Europe/Paris:20130314T100000
+CLASS:DEFAULT
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/42rr56t64r6fsqi9jlfcv8shtg/63498875346
+URL:https://www.google.com/calendar/event?eid=NDJycjU2dDY0cjZmc3FpOWpsZmN2
+ OHNodGcgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:M5 - A4
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130318T123150Z
+LAST-MODIFIED:20130318T123254Z
+DTSTAMP:20130318T140934Z
+UID:4atjksmr4be2734j1nsgsde25s
+SUMMARY:AeL - TD
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130318T133248Z
+DTSTART;TZID=Europe/Paris:20130318T080000
+DTEND;TZID=Europe/Paris:20130318T100000
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/4atjksmr4be2734j1nsgsde25s/63499293174
+URL:https://www.google.com/calendar/event?eid=NGF0amtzbXI0YmUyNzM0ajFuc2dz
+ ZGUyNXMgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:M5
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130318T123157Z
+LAST-MODIFIED:20130318T123258Z
+DTSTAMP:20130318T140941Z
+UID:78nh9lia2uvhgj1o9nm73e8g80
+SUMMARY:Proba/Stat - TD
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130318T133253Z
+DTSTART;TZID=Europe/Paris:20130318T101500
+DTEND;TZID=Europe/Paris:20130318T114500
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/78nh9lia2uvhgj1o9nm73e8g80/63499293178
+URL:https://www.google.com/calendar/event?eid=NzhuaDlsaWEydXZoZ2oxbzlubTcz
+ ZThnODAgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:M5
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130318T131015Z
+LAST-MODIFIED:20130318T131042Z
+DTSTAMP:20130318T141036Z
+UID:toc8j8rd6n7dl83aujmn17tuao
+SUMMARY:Proba/Stat - TD
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+DTSTART;TZID=Europe/Paris:20130319T151500
+DTEND;TZID=Europe/Paris:20130319T164500
+CLASS:DEFAULT
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/toc8j8rd6n7dl83aujmn17tuao/63499295442
+URL:https://www.google.com/calendar/event?eid=dG9jOGo4cmQ2bjdkbDgzYXVqbW4x
+ N3R1YW8gYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:M5
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130316T124325Z
+LAST-MODIFIED:20130319T135016Z
+DTSTAMP:20130316T153100Z
+UID:pvr3hgsh35jtpud1hgh5iduk8k
+SUMMARY:ASD - DS1
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+CATEGORIES:Fac- Partiel
+X-MOZ-LASTACK:20130319T145005Z
+DTSTART;TZID=Europe/Paris:20130320T151500
+DTEND;TZID=Europe/Paris:20130320T173000
+CLASS:DEFAULT
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/pvr3hgsh35jtpud1hgh5iduk8k/63499384216
+URL:https://www.google.com/calendar/event?eid=cHZyM2hnc2gzNWp0cHVkMWhnaDVp
+ ZHVrOGsgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:M1 - Galois / SUP 14
+DESCRIPTION:Regarder quel amphi à 15h15
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-P1D
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130319T223403Z
+LAST-MODIFIED:20130319T223430Z
+DTSTAMP:20130319T233424Z
+UID:4r7on23ppcm9okj5t1h55vm9ic
+SUMMARY:AeL - Cours
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+CATEGORIES:Fac
+DTSTART;TZID=Europe/Paris:20130320T133000
+DTEND;TZID=Europe/Paris:20130320T150000
+CLASS:DEFAULT
+SEQUENCE:2
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/4r7on23ppcm9okj5t1h55vm9ic/63499415670
+URL:https://www.google.com/calendar/event?eid=NHI3b24yM3BwY205b2tqNXQxaDU1
+ dm05aWMgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130319T213244Z
+LAST-MODIFIED:20130322T104428Z
+UID:os6u1lli8apavi1rc63hl710vg
+SUMMARY:Prendre le terGV de 12h54
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130322T114421Z
+DTSTART;TZID=Europe/Paris:20130322T125400
+DTEND;TZID=Europe/Paris:20130322T135400
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/os6u1lli8apavi1rc63hl710vg/63499632268
+URL:https://www.google.com/calendar/event?eid=b3M2dTFsbGk4YXBhdmkxcmM2M2hs
+ NzEwdmcgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION:-PT10M
+SUMMARY:Résumé par défaut Mozilla
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130322T192410Z
+LAST-MODIFIED:20130325T060612Z
+UID:gsccqo2srd5dbem93tvggk4vp4
+SUMMARY:TP - AeL
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130325T070605Z
+DTSTART;TZID=Europe/Paris:20130325T080000
+DTEND;TZID=Europe/Paris:20130325T100000
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/gsccqo2srd5dbem93tvggk4vp4/63499874772
+URL:https://www.google.com/calendar/event?eid=Z3NjY3FvMnNyZDVkYmVtOTN0dmdn
+ azR2cDQgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:M5 - A12
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION:-PT10M
+SUMMARY:Résumé par défaut Mozilla
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130322T192500Z
+LAST-MODIFIED:20130325T080510Z
+DTSTAMP:20130325T090437Z
+UID:i0e6p5veh518nfsmdm5l5v3080
+SUMMARY:Proba/Stat - TP
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130325T090503Z
+DTSTART;TZID=Europe/Paris:20130325T101500
+DTEND;TZID=Europe/Paris:20130325T114500
+CLASS:DEFAULT
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/i0e6p5veh518nfsmdm5l5v3080/63499881910
+URL:https://www.google.com/calendar/event?eid=aTBlNnA1dmVoNTE4bmZzbWRtNWw1
+ djMwODAgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:SUP 118
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION:-PT10M
+SUMMARY:Résumé par défaut Mozilla
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130228T221320Z
+LAST-MODIFIED:20130331T082558Z
+UID:feklg7euq3o86k748ieefkftu8
+SUMMARY:Biture Tristan
+STATUS:TENTATIVE
+ORGANIZER;RSVP=FALSE;CN=arthur dewarumez;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDU
+ AL:mailto:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130331T092551Z
+DTSTART;TZID=Europe/Paris:20130330T200000
+DTEND;TZID=Europe/Paris:20130331T100000
+CLASS:DEFAULT
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/feklg7euq3o86k748ieefkftu8/63500401558
+URL:https://www.google.com/calendar/event?eid=ZmVrbGc3ZXVxM284Nms3NDhpZWVm
+ a2Z0dTggYXJ0aHVyLmRld2FydW1lekBt
+DESCRIPTION:Glou glou mal de tête
+TRANSP:OPAQUE
+LOCATION:Tristan
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130118T132239Z
+LAST-MODIFIED:20130429T205331Z
+UID:963ee265k1s1hshptbjl6i6upo
+SUMMARY:Crous - maintient résidence
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130429T215014Z
+DTSTART;VALUE=DATE;TZID=Europe/Paris:20130430
+DTEND;VALUE=DATE;TZID=Europe/Paris:20130501
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/963ee265k1s1hshptbjl6i6upo/63502952011
+URL:https://www.google.com/calendar/event?eid=OTYzZWUyNjVrMXMxaHNocHRiamw2
+ aTZ1cG8gYXJ0aHVyLmRld2FydW1lekBt
+DESCRIPTION:Fin dépôt dossier maintient résidence
+TRANSP:TRANSPARENT
+LOCATION:Crous
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION:-PT10M
+SUMMARY:Résumé par défaut Mozilla
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130228T200900Z
+LAST-MODIFIED:20130430T223644Z
+UID:631aaglu61ri20l2mppipvi570
+SUMMARY:Anniv gregory
+STATUS:TENTATIVE
+ORGANIZER;RSVP=FALSE;CN=arthur dewarumez;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDU
+ AL:mailto:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130430T233631Z
+DTSTART;VALUE=DATE;TZID=Europe/Paris:20130501
+DTEND;VALUE=DATE;TZID=Europe/Paris:20130502
+CLASS:DEFAULT
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/631aaglu61ri20l2mppipvi570/63503044604
+URL:https://www.google.com/calendar/event?eid=NjMxYWFnbHU2MXJpMjBsMm1wcGlw
+ dmk1NzAgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130331T005832Z
+LAST-MODIFIED:20130506T141907Z
+UID:85ul09mben3vo99i09rp8j4ghs
+SUMMARY:Fete pauline
+STATUS:TENTATIVE
+ORGANIZER;RSVP=FALSE;CN=arthur dewarumez;PARTSTAT=DECLINED;CUTYPE=INDIVIDU
+ AL:mailto:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130504T180603Z
+DTSTART;TZID=Europe/Paris:20130511T200000
+DTEND;TZID=Europe/Paris:20130512T020000
+CLASS:DEFAULT
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/85ul09mben3vo99i09rp8j4ghs/63503533147
+URL:https://www.google.com/calendar/event?eid=ODV1bDA5bWJlbjN2bzk5aTA5cnA4
+ ajRnaHMgYXJ0aHVyLmRld2FydW1lekBt
+DESCRIPTION:Glou glou soft poker
+TRANSP:OPAQUE
+LOCATION:Pauline saint amant
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-P1W
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130226T100904Z
+LAST-MODIFIED:20130508T090700Z
+UID:b4rhbis78l3f05mgrgbvmfb4cc
+SUMMARY:Fiche orientation
+STATUS:TENTATIVE
+ORGANIZER;RSVP=FALSE;CN=Arthur Dewarumez;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDU
+ AL:mailto:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130508T100646Z
+DTSTART;VALUE=DATE;TZID=Europe/Paris:20130515
+DTEND;VALUE=DATE;TZID=Europe/Paris:20130516
+CLASS:DEFAULT
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/b4rhbis78l3f05mgrgbvmfb4cc/63503687220
+URL:https://www.google.com/calendar/event?eid=YjRyaGJpczc4bDNmMDVtZ3JnYnZt
+ ZmI0Y2MgYXJ0aHVyLmRld2FydW1lekBt
+DESCRIPTION:Rendre feuille orientation l3 au secretariat pedagogique
+TRANSP:OPAQUE
+LOCATION:M3
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-P1W
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130412T200721Z
+LAST-MODIFIED:20130513T191220Z
+DTSTAMP:20130429T154401Z
+UID:da8ab488-ffd9-40c5-954d-2dc7a90e29b9
+SUMMARY:Exam Proba/Stat
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+CATEGORIES:Fac- Partiel
+X-MOZ-LASTACK:20130513T180714Z
+DTSTART;TZID=Europe/Paris:20130513T163000
+DTEND;TZID=Europe/Paris:20130513T183000
+CLASS:DEFAULT
+LOCATION:Halles grémaux
+SEQUENCE:2
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/_chgjgob26gs3gbb6cpi3ib9k61hjab9p6kq68b9ichhjeo9p61
+ ij4eb274/63504155540
+URL:https://www.google.com/calendar/event?eid=X2NoZ2pnb2IyNmdzM2diYjZjcGkz
+ aWI5azYxaGphYjlwNmtxNjhiOWljaGhqZW85cDYxaWo0ZWIyNzQgYXJ0aHVyLmRld2FydW1lek
+ Bt
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-P2D
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130412T200721Z
+LAST-MODIFIED:20130515T073021Z
+DTSTAMP:20130412T150050Z
+UID:a81bbdc4-083e-4658-9121-f8ec6d42fd97
+SUMMARY:Exam AEL
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+CATEGORIES:Fac- Partiel
+X-MOZ-LASTACK:20130515T083006Z
+DTSTART;TZID=Europe/Paris:20130517T103000
+DTEND;TZID=Europe/Paris:20130517T120000
+CLASS:DEFAULT
+LOCATION:Halles Grémeaux
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/_c4s32oj2chhj8b9g70pmab9k6oqjgb9p64p32bb671im6dj46g
+ p6cp1p6s/63504286221
+URL:https://www.google.com/calendar/event?eid=X2M0czMyb2oyY2hoajhiOWc3MHBt
+ YWI5azZvcWpnYjlwNjRwMzJiYjY3MWltNmRqNDZncDZjcDFwNnMgYXJ0aHVyLmRld2FydW1lek
+ Bt
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-P2D
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130412T200721Z
+LAST-MODIFIED:20130515T113746Z
+DTSTAMP:20130412T150202Z
+UID:4f433052-1c3a-421f-a664-4c3724a258b8
+SUMMARY:Exam ASD
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+CATEGORIES:Fac- Partiel
+X-MOZ-LASTACK:20130515T123730Z
+DTSTART;TZID=Europe/Paris:20130517T140000
+DTEND;TZID=Europe/Paris:20130517T160000
+CLASS:DEFAULT
+LOCATION:Halles Vallin
+SEQUENCE:1
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/_6hj38cpj60qj4b9hccpm2b9k68omcbb16or38b9kccpjechkc4
+ p3ae3270/63504301066
+URL:https://www.google.com/calendar/event?eid=XzZoajM4Y3BqNjBxajRiOWhjY3Bt
+ MmI5azY4b21jYmIxNm9yMzhiOWtjY3BqZWNoa2M0cDNhZTMyNzAgYXJ0aHVyLmRld2FydW1lek
+ Bt
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-P2D
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130516T122355Z
+LAST-MODIFIED:20130520T111630Z
+UID:te21ei9lsu80dk6r4if4f9l1ls
+SUMMARY:Paiement accompte bus
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+X-MOZ-LASTACK:20130520T121614Z
+DTSTART;TZID=Europe/Paris:20130520T120000
+DTEND;TZID=Europe/Paris:20130520T123000
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/te21ei9lsu80dk6r4if4f9l1ls/63504731790
+URL:https://www.google.com/calendar/event?eid=dGUyMWVpOWxzdTgwZGs2cjRpZjRm
+ OWwxbHMgYXJ0aHVyLmRld2FydW1lekBt
+TRANSP:OPAQUE
+LOCATION:Métro cité scientifique
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION:-PT10M
+SUMMARY:Résumé par défaut Mozilla
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20121122T212010Z
+LAST-MODIFIED:20121122T212010Z
+UID:iu5ql8vk47aaic4ffg05f0bifo
+SUMMARY:Boulot - CRL
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=TU
+DTSTART;TZID=Europe/Paris:20121120T150000
+DTEND;TZID=Europe/Paris:20121120T180000
+CLASS:DEFAULT
+SEQUENCE:0
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/iu5ql8vk47aaic4ffg05f0bifo/63489302410
+URL:https://www.google.com/calendar/event?eid=aXU1cWw4dms0N2FhaWM0ZmZnMDVm
+ MGJpZm9fMjAxMjExMjBUMTQwMDAwWiBhcnRodXIuZGV3YXJ1bWV6QG0
+TRANSP:OPAQUE
+LOCATION:CRL
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION:-PT10M
+SUMMARY:Résumé par défaut Mozilla
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20121122T211659Z
+LAST-MODIFIED:20121122T211916Z
+UID:550k46s0tih2qe421k3mvscgd4
+SUMMARY:CRL - Boulot
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=MO
+DTSTART;TZID=Europe/Paris:20121119T133000
+DTEND;TZID=Europe/Paris:20121119T163000
+CLASS:PRIVATE
+SEQUENCE:2
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/550k46s0tih2qe421k3mvscgd4/63489302356
+URL:https://www.google.com/calendar/event?eid=NTUwazQ2czB0aWgycWU0MjFrM212
+ c2NnZDRfMjAxMjExMTlUMTIzMDAwWiBhcnRodXIuZGV3YXJ1bWV6QG0
+TRANSP:OPAQUE
+LOCATION:CRL
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION:-PT10M
+SUMMARY:Résumé par défaut Mozilla
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT10M
+DESCRIPTION:Description par défaut Mozilla
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130212T162535Z
+LAST-MODIFIED:20130213T121208Z
+DTSTAMP:20130212T150510Z
+UID:bbeb81a8-b276-4bd5-b9de-5c0b1b6e610a
+SUMMARY:CRL -Travail
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+RRULE:FREQ=WEEKLY
+EXDATE:20130219T160000Z
+EXDATE:20130423T150000Z
+EXDATE:20130416T150000Z
+CATEGORIES:Professionnel
+DTSTART;TZID=Europe/Paris:20130212T170000
+DTEND;TZID=Europe/Paris:20130212T180000
+CLASS:DEFAULT
+LOCATION:CRL
+SEQUENCE:5
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/_c9h6aoho65gjgbb268rjcb9kc9i3abb275i6ab9lcco64cb26p
+ ijcc9gc4/63496440728
+URL:https://www.google.com/calendar/event?eid=X2M5aDZhb2hvNjVnamdiYjI2OHJq
+ Y2I5a2M5aTNhYmIyNzVpNmFiOWxjY282NGNiMjZwaWpjYzlnYzRfMjAxMzAyMTJUMTYwMDAwWi
+ BhcnRodXIuZGV3YXJ1bWV6QG0
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130212T162535Z
+LAST-MODIFIED:20130412T200724Z
+UID:dda0fa11-4f4b-4798-aad7-cf9ede6436d7
+SUMMARY:ASD - TP
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+RRULE:FREQ=WEEKLY
+EXDATE:20130219T073000Z
+EXDATE:20130430T063000Z
+EXDATE:20130514T063000Z
+EXDATE:20130423T063000Z
+EXDATE:20130416T063000Z
+CATEGORIES:Fac
+DTSTART;TZID=Europe/Paris:20130212T083000
+DTEND;TZID=Europe/Paris:20130212T100000
+CLASS:DEFAULT
+SEQUENCE:8
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/_chi62c36c4oj2b9kcoq64b9k6ssjgbb1c5i3ebb3cosmap356o
+ q36dj46s/63501480444
+URL:https://www.google.com/calendar/event?eid=X2NoaTYyYzM2YzRvajJiOWtjb3E2
+ NGI5azZzc2pnYmIxYzVpM2ViYjNjb3NtYXAzNTZvcTM2ZGo0NnNfMjAxMzAyMTJUMDczMDAwWi
+ BhcnRodXIuZGV3YXJ1bWV6QG0
+TRANSP:OPAQUE
+LOCATION:SUP 118
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130212T162535Z
+LAST-MODIFIED:20130429T144409Z
+UID:5acf85c0-f039-4ddb-852f-bfd03e1c903d
+SUMMARY:CRL -travail
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+RRULE:FREQ=WEEKLY
+EXDATE:20130218T120000Z
+EXDATE:20130422T110000Z
+EXDATE:20130415T110000Z
+EXDATE:20130513T110000Z
+CATEGORIES:Professionnel
+DTSTART;TZID=Europe/Paris:20130211T130000
+DTEND;TZID=Europe/Paris:20130211T150000
+CLASS:DEFAULT
+SEQUENCE:10
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/_6lgm6pho6lhj0bb660pjib9kchi64b9o6kp6cbb2cpi30cr565
+ hjic1jcg/63502929849
+URL:https://www.google.com/calendar/event?eid=XzZsZ202cGhvNmxoajBiYjY2MHBq
+ aWI5a2NoaTY0YjlvNmtwNmNiYjJjcGkzMGNyNTY1aGppYzFqY2dfMjAxMzAyMTFUMTIwMDAwWi
+ BhcnRodXIuZGV3YXJ1bWV6QG0
+TRANSP:OPAQUE
+LOCATION:SUP - CRL
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130213T115225Z
+LAST-MODIFIED:20130506T141859Z
+DTSTAMP:20130412T145646Z
+UID:g818d4jm85mjlsgag5n3mg67mc
+SUMMARY:ASD - TD
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+RRULE:FREQ=WEEKLY;UNTIL=20130503T063000Z
+EXDATE:20130222T073000Z
+EXDATE:20130517T063000Z
+CATEGORIES:Fac
+DTSTART;TZID=Europe/Paris:20130215T083000
+DTEND;TZID=Europe/Paris:20130215T100000
+CLASS:DEFAULT
+SEQUENCE:7
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/g818d4jm85mjlsgag5n3mg67mc/63503533139
+URL:https://www.google.com/calendar/event?eid=ZzgxOGQ0am04NW1qbHNnYWc1bjNt
+ ZzY3bWNfMjAxMzAyMTVUMDczMDAwWiBhcnRodXIuZGV3YXJ1bWV6QG0
+TRANSP:OPAQUE
+LOCATION:M5 - A5
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130213T104017Z
+LAST-MODIFIED:20130506T141748Z
+DTSTAMP:20130412T145624Z
+UID:1apc49fnbnpq5udc33keoesu10
+SUMMARY:Proba/Stat - Cours
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+RRULE:FREQ=WEEKLY;UNTIL=20130430T081500Z
+EXDATE:20130219T091500Z
+EXDATE:20130226T091500Z
+EXDATE:20130514T081500Z
+CATEGORIES:Fac
+DTSTART;TZID=Europe/Paris:20130212T101500
+DTEND;TZID=Europe/Paris:20130212T114500
+CLASS:DEFAULT
+SEQUENCE:13
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/1apc49fnbnpq5udc33keoesu10/63503533068
+URL:https://www.google.com/calendar/event?eid=MWFwYzQ5Zm5ibnBxNXVkYzMza2Vv
+ ZXN1MTBfMjAxMzAyMTJUMDkxNTAwWiBhcnRodXIuZGV3YXJ1bWV6QG0
+TRANSP:OPAQUE
+LOCATION:M5 - Bacchus
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130212T162535Z
+LAST-MODIFIED:20130506T141729Z
+DTSTAMP:20130412T145615Z
+UID:8c02f77a-9390-4439-b913-47a8bb463994
+SUMMARY:ASD - Cours
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+RRULE:FREQ=WEEKLY;UNTIL=20130429T131500Z
+EXDATE:20130218T141500Z
+EXDATE:20130513T131500Z
+CATEGORIES:Fac
+DTSTART;TZID=Europe/Paris:20130211T151500
+DTEND;TZID=Europe/Paris:20130211T164500
+CLASS:DEFAULT
+SEQUENCE:11
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/_71hj0cj66srm2b9p6csj0b9k6gpjibb274oj6b9k6tgjgoj26g
+ r36e9p6g/63503533049
+URL:https://www.google.com/calendar/event?eid=XzcxaGowY2o2NnNybTJiOXA2Y3Nq
+ MGI5azZncGppYmIyNzRvajZiOWs2dGdqZ29qMjZncjM2ZTlwNmdfMjAxMzAyMTFUMTQxNTAwWi
+ BhcnRodXIuZGV3YXJ1bWV6QG0
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20130213T111351Z
+LAST-MODIFIED:20130509T134904Z
+UID:evtph9e3c902cs2q7paa9re5is
+SUMMARY:CRL - Travail
+STATUS:CONFIRMED
+ORGANIZER;RSVP=FALSE;CN=arthur.dewarumez@gmail.com;CUTYPE=INDIVIDUAL:mailt
+ o:arthur.dewarumez@gmail.com
+RRULE:FREQ=WEEKLY
+EXDATE:20130220T143000Z
+EXDATE:20130227T143000Z
+EXDATE:20130313T143000Z
+EXDATE:20130320T143000Z
+EXDATE:20130424T133000Z
+EXDATE:20130417T133000Z
+EXDATE:20130508T133000Z
+CATEGORIES:Professionnel
+DTSTART;TZID=Europe/Paris:20130213T153000
+DTEND;TZID=Europe/Paris:20130213T163000
+CLASS:DEFAULT
+SEQUENCE:13
+X-GOOGLE-EDITURL:https://www.google.com/calendar/feeds/arthur.dewarumez%40
+ gmail.com/private/full/evtph9e3c902cs2q7paa9re5is/63503790544
+URL:https://www.google.com/calendar/event?eid=ZXZ0cGg5ZTNjOTAyY3MycTdwYWE5
+ cmU1aXNfMjAxMzAyMTNUMTQzMDAwWiBhcnRodXIuZGV3YXJ1bWV6QG0
+TRANSP:OPAQUE
+LOCATION:SUP - CRL
+END:VEVENT
+END:VCALENDAR

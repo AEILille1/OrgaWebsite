@@ -1,0 +1,13 @@
+ASSOCIATION DES ETUDIANTS EN INFORMATIQUE DE LILLE 1
+Ce qu'il reste à faire :
+***RESEAUX SOCIAUX
+
+    intégration de Facebook dans la partie "Réseaux Sociaux" --> NE FONCTIONNE PAS (mis sur le côté en attendant)
+
+***EVENEMENTS
+
+    intégration d'un calendrier + le prochain évènement programmé (en grand) ainsi que le suivant (en plus petit)
+
+***GALERIE PHOTOS
+
+    Intégration d'un hyperlien permettant d'accéder à PhotoShow pour visualiser les photos de tous les  évènements connus de l'asso --> Je m'en charge ce week-end (Antonin)
