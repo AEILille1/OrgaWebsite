@@ -4,7 +4,7 @@
 
 	function show_event(){
 		setlocale (LC_TIME, 'fr_FR.utf8','fra'); //Pour avoir les locales en fr
-		$fichier_source = "https://www.google.com/calendar/ical/jq99l7s73opl0ok7b9ieuqhrj4%40group.calendar.google.com/public/basic.ics";
+		$fichier_source = "https://www.google.com/calendar/ical/jq99l7s73opl0ok7b9ieuqhrj4@group.calendar.google.com/public/basic.ics";
 		$NB_EVENT_AFF = 3; //Nombre d'évènement à afficher par défaut.
 		$pb_fichier = false;//En cas de problème d'ouverture du fichier, on passe à false
 		try{
@@ -18,8 +18,9 @@
 		}
 		else{//On récupére les données
 			/*========== Récupération de tous les événements ==========*/
+			print_r($ical);
 			if($ical->event_count === 0){//Pas d'événements de prévu
-				echo "<ul>Évènements\n\t<li>Rien de prévue pour le moment. Repasser nous voir pour vous tenir au courant</li>\n</ul>";
+				echo "<ul>\n\t<li>Rien de prévue pour le moment. Repasser nous voir pour vous tenir au courant</li>\n</ul>";
 			}
 			else{
 				$ical_event = $ical->sortEventsWithOrder($ical->events(), SORT_ASC);//On récupère les events trié
@@ -44,8 +45,8 @@
 						echo "</ul>\n";
 				}
 				echo "</ul>";
-				echo "<p>Pour toujours êtres à jour, abonnez-vous à notre <a href=\"".$fichier_source."\">calendrier</a></p>";
 			}
 		}
+		echo "<p>Pour toujours êtres à jour, abonnez-vous à notre <a href=\"".$fichier_source."\">calendrier</a></p>";
 	}
 ?>

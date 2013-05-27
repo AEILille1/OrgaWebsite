@@ -59,8 +59,8 @@ class ICal
             return false;
         }
 
-        $lines = @file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-        if(count($lines) === 1){
+        $lines = @fopen($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        if(!$lines){
 					throw new Exception('Impossible de récupérer le fichier ics'.$filename);
 				}
 
