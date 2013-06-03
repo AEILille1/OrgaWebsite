@@ -18,7 +18,6 @@
 		}
 		else{//On récupére les données
 			/*========== Récupération de tous les événements ==========*/
-			print_r($ical);
 			if($ical->event_count === 0){//Pas d'événements de prévu
 				echo "<ul>\n\t<li>Rien de prévu pour le moment. Repassez nous voir pour vous tenir au courant</li>\n</ul>";
 			}
