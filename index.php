@@ -94,7 +94,9 @@
 	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 		   <h1> Le bureau </h1>
-			<div id="content" class="grid_12">
+		     L'AEI est une association à but non-lucrative, basée sur le campus de Lille1 (rez-de-chaussée du batiment M5) depuis 2007.<br/>
+Elle a pour mission de promouvoir, et de supporter, les Technologies de l'Information et de la Communication chez les étudiants, mais aussi les accompagner tout au long de leur parcours scolaire.<br/><br/>
+		   <div id="content" class="grid_12">
 			    <table>
 			      <tr>
 				<td><img src="images/benjamin_digeon_gimp.jpg"></td>
@@ -107,7 +109,7 @@
 			    </table>
 			    <p>
 			      <ul>
-				<b>Dans l'ordre :</b>
+				<b>Nos élus, dans l'ordre :</b>
 				<li><a href="mailto:president@aei-asso.fr">Digeon Benjamin</a> -- président</li>
 				<li><a href="mailto:vice-president@aei-asso.fr">Couturier Boris</a> -- vice-président</li>
 				<li><a href="mailto:intendant@aei-asso.fr">Billiet Louis</a> -- intendant</li>

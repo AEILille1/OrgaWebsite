@@ -14,13 +14,13 @@
 			$pb_fichier = true;;
 		}
 		if($pb_fichier){//Erreur lors de l'ouverture du fichier
-			echo "<p class=\"error\"> Ooops, l'agenda n'est pas disponible pour le moment. Appuies sur F5 pour voir.</p>";
+			echo "<p class=\"error\"> Ooops, l'agenda n'est pas disponible pour le moment. Appuyez sur \"F5\" pour re-visualiser la page.</p>";
 		}
 		else{//On récupére les données
 			/*========== Récupération de tous les événements ==========*/
 			print_r($ical);
 			if($ical->event_count === 0){//Pas d'événements de prévu
-				echo "<ul>\n\t<li>Rien de prévue pour le moment. Repasser nous voir pour vous tenir au courant</li>\n</ul>";
+				echo "<ul>\n\t<li>Rien de prévu pour le moment. Repassez nous voir pour vous tenir au courant</li>\n</ul>";
 			}
 			else{
 				$ical_event = $ical->sortEventsWithOrder($ical->events(), SORT_ASC);//On récupère les events trié
@@ -47,6 +47,6 @@
 				echo "</ul>";
 			}
 		}
-		echo "<p>Pour toujours êtres à jour, abonnez-vous à notre <a href=\"".$fichier_source."\">calendrier</a></p>";
+		echo "<p>Pour toujours être à jour, abonnez-vous à notre <a href=\"".$fichier_source."\">calendrier</a></p>";
 	}
 ?>
