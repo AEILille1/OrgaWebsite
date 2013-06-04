@@ -4,7 +4,7 @@
 
 	function show_event(){
 		setlocale (LC_TIME, 'fr_FR.utf8','fra'); //Pour avoir les locales en fr
-		$fichier_source = "https://www.google.com/calendar/ical/jq99l7s73opl0ok7b9ieuqhrj4@group.calendar.google.com/public/basic.ics";
+		$fichier_source = "http://aei:aei@aei-asso.fr/cloud/remote.php/caldav/calendars/aei/aei?export";
 		$NB_EVENT_AFF = 3; //Nombre d'évènement à afficher par défaut.
 		$pb_fichier = false;//En cas de problème d'ouverture du fichier, on passe à false
 		$fichier_ics = "aei.ics"
