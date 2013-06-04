@@ -7,6 +7,7 @@
 		$fichier_source = "https://www.google.com/calendar/ical/jq99l7s73opl0ok7b9ieuqhrj4@group.calendar.google.com/public/basic.ics";
 		$NB_EVENT_AFF = 3; //Nombre d'évènement à afficher par défaut.
 		$pb_fichier = false;//En cas de problème d'ouverture du fichier, on passe à false
+		$fichier_ics = "aei.ics"
 		try{
 			$ical = new ical($fichier_source);
 		}
@@ -46,6 +47,6 @@
 				echo "</ul>";
 			}
 		}
-		echo "<p>Pour toujours être à jour, abonnez-vous à notre <a href=\"".$fichier_source."\">calendrier</a></p>";
+		echo "<p>Pour toujours être à jour, abonnez-vous à notre <a href=\"".$fichier_ics."\">calendrier</a></p>";
 	}
 ?>
