@@ -25,42 +25,43 @@ function next_event($ical_event){
     return $it_event;
 }
 
+function show_list($ical_event, $NB_EVENT_AFF){
+
+}
+
 function show_event(){
+    error_reporting(0);//Masque les erreurs
     setlocale (LC_TIME, 'fr_FR.utf8','fra'); //Pour avoir les locales en fr
-    $fichier_source = "http://aei:aei@aei-asso.fr/cloud/remote.php/caldav/calendars/aei/aei?export";
-    //$fichier_source = "http://admin:admin@localhost/owncloud/remote.php/caldav/calendars/admin/defaultcalendar?export";
+    $fichier_source = "http://aei:mdp@aei-asso.fr/cloud/remote.php/caldav/calendars/aei/aei?export";
     $NB_EVENT_AFF = 3; //Nombre d'évènement à afficher par défaut.
     $fichier_ics = "aei.ics";
 	//Ouverture du fichier
-    try{
-        $ical = new ical($fichier_source);
-    }
-    catch(Exception $e){
-        echo "yolanda";
+    $ical = new ical($fichier_source);
+    if($ical->todo_count === 0 && $ical->event_count === 0){//Problème ouverture du fichier
         echo "<p class=\"error\"> Ooops, l'agenda n'est pas disponible pour le moment. Appuyez sur \"F5\" pour re-visualiser la page.</p>";
-        show_abo_ics();
-        die();
     }
-    //On a réussi à ouvrir le calendrier. Youhou!
-    $ical_event = extract_events($ical);
-    //Recherche de l'indice dans le tableau du prochain élément
-    $it_event = next_event($ical_event);
-    /*========== Si le nombre d'événements est inférieur à NB_EVENT_AFF ==========*/
-    if(count($ical_event) - $it_event < 3){
-        //On utilise la taille du tableau car le tableau est trié.
-        $NB_EVENT_AFF = count($ical_event) - $it_event;
-    }
-    /*========== On affiche les prochains événement ==========*/
-    for($i = 0 ; $i < $NB_EVENT_AFF; $i++){
-        echo "\t<ul>".$ical_event[$i+$it_event]['SUMMARY']."\n\t\t";
-        echo "<li>".strftime("%A %e %B %G",$ical->iCalDateToUnixTimestamp($ical_event[$i+$it_event]['DTSTART']))."</li>\n\t\t";
-        echo "<li>".$ical_event[$i+$it_event]['LOCATION']."</li>\n\n\t\t";
-        if(isset($ical_event[$i+$it_event]['DESCRIPTION'])){
-            echo "<li class=\"Description\">".$ical_event[$i+$it_event]['DESCRIPTION']."</li>\n\t";
+    else{
+        //On a réussi à ouvrir le calendrier. Youhou!
+        $ical_event = extract_events($ical);
+        //Recherche de l'indice dans le tableau du prochain élément
+        $it_event = next_event($ical_event);
+        /*========== Si le nombre d'événements est inférieur à NB_EVENT_AFF ==========*/
+        if(count($ical_event) - $it_event < 3){
+            //On utilise la taille du tableau car le tableau est trié.
+            $NB_EVENT_AFF = count($ical_event) - $it_event;
         }
-        echo "</ul>\n";
+        for($i = 0 ; $i < $NB_EVENT_AFF; $i++){
+            echo "\t<ul>".$ical_event[$i+$it_event]['SUMMARY']."\n\t\t";
+            echo "<li>".strftime("%A %e %B %G, %k:%M", $ical->iCalDateToUnixTimestamp($ical_event[$i+$it_event]['DTSTART']))."</li>\n\t\t";
+            if(isset($ical_event[$i+$it_event]['LOCATION'])){
+                echo "<li>".$ical_event[$i+$it_event]['LOCATION']."</li>\n\n\t\t";
+            }
+            if(isset($ical_event[$i+$it_event]['DESCRIPTION'])){
+                echo "<li class=\"Description\">".$ical_event[$i+$it_event]['DESCRIPTION']."</li>\n\t";
+            }
+            echo "</ul>\n";
+        }
     }
-    echo "</ul>";
     //On affiche le lien de l'abonnement
     show_abo_ics();
 }
