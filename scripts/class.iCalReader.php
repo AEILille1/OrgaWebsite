@@ -43,9 +43,6 @@ class ICal
     /* Which keyword has been added to cal at last? */
     private /** @type {string} */ $_lastKeyWord;
 
-    /* Permet de savoir s'il y a eu une erreur lorsque de la
-     * récupération du fichier .ics */
-
     /**
      * Creates the iCal-Object
      *
@@ -59,11 +56,7 @@ class ICal
             return false;
         }
 
-        $lines = @fopen($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-        if(!$lines){
-					throw new Exception('Impossible de récupérer le fichier ics'.$filename);
-				}
-
+        $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
         if (stristr($lines[0], 'BEGIN:VCALENDAR') === false) {
             return false;
         } else {
@@ -327,4 +320,3 @@ class ICal
     }
 }
 ?>
-
